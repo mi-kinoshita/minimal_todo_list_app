@@ -1,4 +1,4 @@
-# MINIMAL TO DO APP 🌟 MADE WITH Flutter
+# MINIMAL TO DO APP 🌟 Made with Flutter
 
 WEB DEMO : https://minimal-list-app.web.app/
 
