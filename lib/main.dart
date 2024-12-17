@@ -10,8 +10,22 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: TopPage(),
+    return MaterialApp(
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: Colors.brown,
+          brightness: Brightness.light,
+        ),
+      ),
+
+      darkTheme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: Colors.brown,
+          brightness: Brightness.dark,
+        ),
+      ),
+
+      home: const TopPage(),
     );
   }
 }

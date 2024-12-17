@@ -13,7 +13,7 @@ class MyButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialButton(
         onPressed: onPressed,
-    color: Theme.of(context).canvasColor,
+    color: Theme.of(context).colorScheme.primaryContainer,
     child: Text(text),
     );
   }

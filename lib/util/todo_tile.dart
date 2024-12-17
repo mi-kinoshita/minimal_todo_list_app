@@ -26,21 +26,21 @@ class TodoTitle extends StatelessWidget {
               SlidableAction(
                 onPressed: deleteFunction,
                 icon: Icons.delete,
-                backgroundColor: const Color(0xffa53d45),
+                backgroundColor: Theme.of(context).colorScheme.error,
               )
             ],
         ),
         child: Container(
-          decoration : const BoxDecoration(
-            color: Color(0xffdbd3c7),
+          decoration : BoxDecoration(
+            color: Theme.of(context).colorScheme.primaryContainer,
           ),
           child: Row(
             children: [
             Checkbox(
               value: taskCompleted,
               onChanged: onChanged,
-              activeColor: const Color(0xff585450),
-              checkColor: Colors.white,
+              // activeColor: const Color(0xff585450),
+              // checkColor: Colors.white,
                 ),
             Text(taskTitle),
           ]),

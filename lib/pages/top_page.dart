@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:minimal_todo_list_app/model/task.dart';
 import 'package:minimal_todo_list_app/shared_prefs/shared_prefs.dart';
 import 'package:minimal_todo_list_app/util/dialog_box.dart';
@@ -72,11 +73,13 @@ class _TopPageState extends State<TopPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('TODO'),
+        title: Text(
+          'TODO',
+          style: GoogleFonts.roboto(),
+        ),
         centerTitle: true,
-        backgroundColor: const Color(0xffdbd3c7),
+        backgroundColor: Theme.of(context).colorScheme.primaryContainer,
       ),
-      backgroundColor: Colors.white,
       body:ListView.builder(
           itemCount: _prefs.count(),
           itemBuilder: (context, index) {
@@ -96,7 +99,6 @@ class _TopPageState extends State<TopPage> {
           borderRadius: BorderRadius.circular(8),
         ),
         onPressed: createNewTask,
-        backgroundColor: const Color(0xffdbd3c7),
         child: const Icon(Icons.add),
       ),
     );
