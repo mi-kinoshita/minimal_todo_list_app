@@ -13,7 +13,7 @@ Try in your browser: https://minimal-list-app.web.app/
 * Intuitive operation with a simple UI
 * Add and delete tasks
 * Toggle task completion status
-* Dark mode support
+* Dynamic color and dark mode support
 
 ## Usage
 The basic usage of the app is as follows:
