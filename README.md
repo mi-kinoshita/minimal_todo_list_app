@@ -1,5 +1,5 @@
 # MINIMAL TODO APP 🌟 Made with Flutter
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev/) 
+ [![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev/) 
 
 ## Overview
 This Todo app is a task management application with a simple and easy-to-use interface.
