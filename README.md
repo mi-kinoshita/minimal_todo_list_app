@@ -6,7 +6,7 @@ This Todo app is a task management application with a simple and easy-to-use int
 Try in your browser: https://minimal-list-app.web.app/
 
 ## Preview
-![minimal_todo_app.png](images%2Fminimal_todo_app.png) ![dark_mode.png](images%2Fdark_mode.png)
+![minimal_todo_app.png](images%2Fminimal_todo_app.png)
 
 ## Features
 * Intuitive operation with a simple UI
@@ -18,7 +18,7 @@ Try in your browser: https://minimal-list-app.web.app/
 The basic usage of the app is as follows:
 1. Tap the "+" button to add a new task.
 2. Swipe a task to delete it.
-3. Tap the checkbox to toggle the task's completion status. (Describe other app-specific usage)
+3. Tap the checkbox to toggle the task's completion status.
 
 ## Development Environment
 * Flutter [3.24.5]
