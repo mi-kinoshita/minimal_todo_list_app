@@ -3,6 +3,7 @@
 
 ## Overview
 This Todo app is a task management application with a simple and easy-to-use interface.
+
 Try in your browser: https://minimal-list-app.web.app/
 
 ## Preview
