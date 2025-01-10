@@ -28,6 +28,3 @@ The basic usage of the app is as follows:
 
 ## Contributing
 Contributions to this project are welcome! Bug reports, feature suggestions, and pull requests are all appreciated.
-
-## Contact
-https://x.com/mkmmsu
